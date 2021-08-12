@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'first-app';
+ programmer="Johnson"
+ team=["Peter","Nicholas","Jackie","Mohith","Jerry"]
+ text=">>>>"
+ visibility=false
+ index=2
+ themes=[
+   {backgroundColor: "Yellow", fontFamily:"Agency FB", color: "green"}, 
+   {backgroundColor: "lightblue", fontFamily:"Arial", color: "darkred"},
+   {backgroundColor: "lightgreen", fontFamily:"Consolas", color: "darkblue"}
+ ]
+
+ manipulate() {
+     this.visibility=this.visibility?false:true;
+     this.text=this.text===">>>>"?"^^^^":">>>>";
+ }
 }

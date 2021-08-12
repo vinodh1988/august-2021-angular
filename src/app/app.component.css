@@ -1,0 +1,25 @@
+h1, h3 {
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1{
+    background-color: aqua;
+    color: darkred;
+}
+
+h3{
+    background-color: limegreen;
+    color: darkblue;
+}
+
+#home{
+    overflow: hidden;
+    padding: 30px;
+}
+
+#clickable{
+    cursor: pointer;
+    font-weight: bolder;
+    color: rgb(78, 78, 78);
+}
